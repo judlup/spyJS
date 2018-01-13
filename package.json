@@ -1,0 +1,29 @@
+{
+  "name": "spyjs",
+  "version": "0.1.0",
+  "description": "Service for spy http remote api or sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judlup/spyJS.git"
+  },
+  "keywords": [
+    "spy",
+    "api",
+    "remote",
+    "site",
+    "stalker"
+  ],
+  "author": "Judlup Luna <judlup@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/judlup/spyJS/issues"
+  },
+  "homepage": "https://github.com/judlup/spyJS#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
