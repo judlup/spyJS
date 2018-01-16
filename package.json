@@ -1,18 +1,21 @@
 {
-  "name": "spyjs",
+  "name": "spyfy",
   "version": "0.1.0",
-  "description": "Service for spy http remote api or sites",
+  "description": "Your Spy for API http and Twitter hashtags (for now) in real time, all in one callback :)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/judlup/spyJS.git"
+    "url": "git+https://github.com/judlup/spyfy.git"
   },
   "keywords": [
     "spy",
+    "spyfy",
     "api",
+    "http",
+    "twitter"
     "remote",
     "site",
     "stalker"
@@ -20,9 +23,9 @@
   "author": "Judlup Luna <judlup@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/judlup/spyJS/issues"
+    "url": "https://github.com/judlup/spyfy/issues"
   },
-  "homepage": "https://github.com/judlup/spyJS#readme",
+  "homepage": "https://github.com/judlup/spyfy#readme",
   "dependencies": {
     "request": "^2.83.0",
     "socket.io": "^2.0.4",
