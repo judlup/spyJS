@@ -1,4 +1,4 @@
-<img src="http://domoteco.com/img/spyfy/icon.png" title="SpyJS" height="550" width="550" />
+<img src="http://domoteco.com/img/spyfy/icon.png" title="Spyfy" height="550" width="550" />
 
 Your Spy for API http and Twitter hashtags (for now)  in real time, all in one callback :)
 
@@ -35,6 +35,10 @@ spyfy.notification(function(payload){
 })
 
 ```
+
+**Run on your browser** ``` http://localhost:3000 ``` 
+
+![Spyfy Working](http://domoteco.com/img/spyfy/spyfy_works.png)
 
 ### Notes 
 

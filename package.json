@@ -1,6 +1,6 @@
 {
   "name": "spyfy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Your Spy for API http and Twitter hashtags (for now) in real time, all in one callback :)",
   "main": "index.js",
   "scripts": {
