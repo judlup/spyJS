@@ -1,0 +1,24 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io();
+  socket.on("notification",function(payload){
+  	var json = JSON.parse(payload);
+  	if(json.from == 'http_basic')	{
+  		document.getElementById("messages_http_basic").innerHTML='<p></p><p>'+json.from+' | '+json.payload+'</p><p></p>';	
+  	}
+
+  	if(json.from == 'hashtalker')	{
+  		document.getElementById("messages_hashtalker").innerHTML='<p></p><p>'+json.from+' | '+json.payload+'</p><p></p>';	
+  	}
+
+  	
+  });
+</script>
+<img src="/resources/icon.png" alt="SpyJS" style="width: 150px; height: 150px;">
+<hr>
+<h3>Http Basic</h3>
+<div id="messages_http_basic"></div>
+<hr>
+<h3>Twitter | HashTalker</h3>
+<div id="messages_hashtalker"></div>
+<hr>
