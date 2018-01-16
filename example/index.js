@@ -1,19 +1,29 @@
-var spyJS = require("../index.js");
+var spyfy = require("../index.js");
 
-spyJS.version();
+spyfy.version();
 
 //Http basic
-spyJS.watch_http('http://api.woonked.com/wuser/domoteco'); 
+spyfy.watch_http('http://api.woonked.com/wuser/domoteco'); 
 
 //Twitter API credentials (consumer_key,consumer_secret,access_token_key,access_token_secret)  
-tw = spyJS.twitter('YOUR_CONSUMER_KEY','YOUR_CONSUMER_SECRET','YOUR_ACCESS_KEY','YOUR_TOKEN_SECRET')
+tw = spyfy.twitter('YOUR_CONSUMER_KEY','YOUR_CONSUMER_SECRET','YOUR_ACCESS_KEY','YOUR_TOKEN_SECRET')
+
 
 //TT Twitter
-spyJS.hashtalker(tw,'iot')
+spyfy.hashtalker(tw,'iot')
 
+//Search twitter
+// spyJS.tsearch(tw,function(error,tweets){
+// 	console.log("Tweets",tweets);
+// });
+
+// //TL Stalker
+// spyJS.tlstalker(tw,'judlup',function(tweets){
+// 	//console.log("tlstalker",tweets);
+// });
 
 //Notifications
-spyJS.notification(function(payload){
+spyfy.notification(function(payload){
 	//console.log('NOTIFY',payload)
 	var json = JSON.parse(payload);
 	if(json.from == "http_basic")	{

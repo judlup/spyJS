@@ -1,4 +1,4 @@
-<img src="http://domoteco.com/img/spyjs/icon.png" title="SpyJS" height="550" width="550" />
+<img src="http://domoteco.com/img/spyfy/icon.png" title="SpyJS" height="550" width="550" />
 
 Your Spy for API http and Twitter hashtags (for now)  in real time, all in one callback :)
 
@@ -6,22 +6,22 @@ Your Spy for API http and Twitter hashtags (for now)  in real time, all in one c
 ### Basic Usage:
 
 ```
-var spyJS = require("spyjs");
+var spyfy = require("spyfy");
 
 //See SpyJS version
-spyJS.version();
+spyfy.version();
 
 //Http basic
-spyJS.watch_http('http://api.woonked.com/wuser/domoteco' | width=100); 
+spyfy.watch_http('http://api.woonked.com/wuser/domoteco' | width=100); 
 
 //Twitter API credentials (consumer_key,consumer_secret,access_token_key,access_token_secret)  
-tw = spyJS.twitter('YOUR_CONSUMER_KEY','YOUR_CONSUMER_SECRET','YOUR_ACCESS_KEY','YOUR_TOKEN_SECRET')
+tw = spyfy.twitter('YOUR_CONSUMER_KEY','YOUR_CONSUMER_SECRET','YOUR_ACCESS_KEY','YOUR_TOKEN_SECRET')
 
 //TT Twitter
-spyJS.hashtalker(tw,'iot')
+spyfy.hashtalker(tw,'iot')
 
 //Notifications
-spyJS.notification(function(payload){
+spyfy.notification(function(payload){
     //console.log('Notification',payload)
     var json = JSON.parse(payload);
     if(json.from == "http_basic")   {

@@ -55,7 +55,7 @@ client.get('favorites/list', function(error, tweets, response) {
   console.log(response);  // Raw response object. 
 });
 
-client.post('statuses/update', {status: 'SpyJS :] by JudLup'},  function(error, tweet, response) {
+client.post('statuses/update', {status: 'Spyfy :] by JudLup'},  function(error, tweet, response) {
   if(error) throw error;
   console.log(tweet);  // Tweet body. 
   console.log(response);  // Raw response object. 
@@ -80,7 +80,7 @@ var version = "0.1.0";
 
 module.exports =
 {
-	//SpyJS Version
+	//Spyfy Version
   version : function() {
     console.log(version)
     return version;
@@ -140,14 +140,14 @@ module.exports =
   //*****************************//
   //							HTTP 					 //
   //*****************************//
-  //Spy http
+  //Spyfy http
   watch_http : function(url,callback) {    	
 		var req = setInterval(watch_http_fn.bind(null, url,callback), 1000);	
   },
 
 }
 
-//Spy http function 
+//Spyfy http function 
 var last_message = [];
 function watch_http_fn(url,callback) {
 	request(url, function(err,response,body){				
@@ -176,5 +176,5 @@ function watch_http_fn(url,callback) {
 		//callback(body,err,last_message)
 	})	
 }
-//Spy http function 
+//Spyfy http function 
 
