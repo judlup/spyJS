@@ -12,7 +12,7 @@ var spyJS = require("spyjs");
 spyJS.version();
 
 //Http basic
-spyJS.watch_http('http://api.woonked.com/wuser/domoteco'); 
+spyJS.watch_http('http://api.woonked.com/wuser/domoteco'){:height="36px" width="36px"}; 
 
 //Twitter API credentials (consumer_key,consumer_secret,access_token_key,access_token_secret)  
 tw = spyJS.twitter('YOUR_CONSUMER_KEY','YOUR_CONSUMER_SECRET','YOUR_ACCESS_KEY','YOUR_TOKEN_SECRET')
