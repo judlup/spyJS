@@ -35,11 +35,11 @@ spyJS.notification(function(payload){
 
 ```
 
-# # # Notes 
+### Notes 
 
 [Twitter Apps](http://apps.twitter.com/) | Generate your APIT Twitter credentials.
 
-# # # Contact
+### Contact
 
 [@Judlup](http://twitter.com/judlup)
 [judlup@gmail.com](judlup@gmail.com)
