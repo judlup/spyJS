@@ -1,3 +1,4 @@
+![SpyJS](http://domoteco.com/img/spyjs/icon.png)
 # spyJS
 Your Spy for API http and Twitter hashtags (for now)  in real time, all in one callback :)
 
