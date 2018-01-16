@@ -1,4 +1,5 @@
-<img src="http://domoteco.com/img/spyjs/icon.png" title="SpyJS" height="250" width="250" />
+<img src="http://domoteco.com/img/spyjs/icon.png" title="SpyJS" height="550" width="550" />
+
 # spyJS
 Your Spy for API http and Twitter hashtags (for now)  in real time, all in one callback :)
 
