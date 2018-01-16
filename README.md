@@ -3,7 +3,7 @@
 Your Spy for API http and Twitter hashtags (for now)  in real time, all in one callback :)
 
 - - - 
-Basic Usage:
+### Basic Usage:
 
 ```
 var spyJS = require("spyjs");
